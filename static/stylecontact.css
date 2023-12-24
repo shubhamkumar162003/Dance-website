@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+h1 {
+  text-align: center;
+  margin: 4px;
+}
+.container{
+    /* justify-content: center; */
+min-height: 70vh;
+margin: 43px 0;
+/* display: flex;
+align-items: center;
+flex-direction: column; */
+}
+.container h1{
+    font-family: fantasy;
+    padding: 10px;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+::placeholder {
+    color: black;
+}
+.myInput {
+  font-size: 15px;
+  color: black;
+  border-radius: 8px;
+  width: 40%;
+  padding: 10px;
+  margin: 3px;
+  outline: none;
+  background-color: rgb(253, 207, 246);
+}
+.btn{
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgb(253, 207, 246);
+    cursor: pointer;
+    outline: none;
+    margin: 20px;
+}
